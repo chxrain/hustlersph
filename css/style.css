@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  background-color: #1ea4fc;
+  color: white;
+  padding: 10px 50px;
+}
+
+.header-container span a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 13.5px;
+  letter-spacing: 1.5px;
+}
+
+.header-container .cta {
+  background-image: linear-gradient(#fca11e, #ff9e16);
+  border-radius: 30px;
+  padding: 8px 25px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.header-container .cta:hover {
+  transform: scale(0.9) !important;
+}
+
+.header-container .cta > a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13.5px;
+}
+
+.hero {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/images/hero.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.hero h1 {
+  display: block;
+  margin: auto !important;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.hero .btn a {
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.hero .btn1 {
+  background-image: linear-gradient(#fca11e, #ff9e16);
+  border: none;
+  border-radius: 30px;
+  padding: 8px 30px;
+  border: 2px solid #fca11e;
+  transition: 0.3s ease;
+}
+
+.hero .btn1:hover {
+  animation: shake 0.5s;
+}
+
+.hero .btn2 {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 8px 30px;
+  transition: 0.3s ease;
+}
+
+.hero .btn2:hover {
+  animation: shake 0.7s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.content {
+  display: inline-block;
+}
+
+.content .btn a {
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.content .btn3 {
+  background-color: #1ea4fc !important;
+  border-radius: 30px;
+  padding: 8px 30px;
+  border: 2px solid #1ea4fc;
+  transition: 0.3s ease transform;
+}
+
+.content .btn3:hover {
+  transform: scale(0.9);
+  background-image: linear-gradient(#fca11e, #ff9e16) !important;
+  border: 2px solid #fca11e;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.content p {
+  font-size: 25px;
+  line-height: 45px;
+  margin: 30px auto;
+}
+
+.content .main-img1 {
+  background-image: url("/images/box1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 50%;
+}
+
+.content .main-img2 {
+  background-image: url("/images/box2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 50%;
+}
+
+.content .main-img3 {
+  background-image: url("/images/box3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 50%;
+}
+
+.categories ul {
+  padding: 25px 0px 0px 2px;
+}
+
+.categories li {
+  list-style: none;
+  line-height: 45px;
+  color: grey;
+}
+
+.categories li:hover {
+  color: #1ea4fc;
+}
+
+footer {
+  background-color: #1ea4fc;
+  color: white;
+  padding: 40px 50px 10px;
+}
+
+footer ul {
+  padding-top: 10px;
+  padding-left: 1px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li a {
+  color: white;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+footer li:hover {
+  color: #1ea4fc;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 80%;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
+}
